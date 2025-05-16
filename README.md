@@ -1,4 +1,4 @@
-# BEC-Catch-Me-If-You-Can-
+# BEC-Catch-Me-If-You-Can (:
 
 Simulated a real-world Business Email Compromise (BEC) attack targeting a corporate network. As part of the Blue Team, I analyzed network traffic (PCAP files) using Wireshark to:
 
