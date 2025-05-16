@@ -31,3 +31,4 @@ Simulated a real-world Business Email Compromise (BEC) attack targeting a corpor
    - Extracted phishing email content via `File → Export Objects → IMF`.
 
 
+Source of the malcious **pcap** file: https://www.malware-traffic-analysis.net/
