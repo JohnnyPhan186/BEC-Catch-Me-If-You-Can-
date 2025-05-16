@@ -15,3 +15,5 @@ Simulated a real-world Business Email Compromise (BEC) attack targeting a corpor
 - Attacker IP: `10.6.1.104`.  
 - Spoofed Emails: Used `From: <YourLife97@3953.com>"`,`From: <YourLife26@5088"`, `From: <YourLife11@5088"` with fear-mongering phising emails.  
 **Tools**: Wireshark
+
+![phishing](https://github.com/user-attachments/assets/c58d48bd-a96f-4646-9dbf-f4cd219cbaa4)
