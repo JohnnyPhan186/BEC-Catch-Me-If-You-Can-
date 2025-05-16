@@ -13,7 +13,7 @@ Simulated a real-world Business Email Compromise (BEC) attack targeting a corpor
 **My Role**: Blue Team analyst tasked with identifying malicious emails in PCAPs.  
 **Key Findings**:  
 - Attacker IP: `10.6.1.104`.  
-- Spoofed Emails: Used `From: <YourLife97@3953.com>"`,`From: <YourLife26@5088"`, `From: <YourLife11@7044"` with fear-mongering phising emails.  
+- Spoofed Emails: Used `From: <YourLife97@3953.com>"`,`From: <YourLife26@5088"`, `From: <YourLife11@7040"` with fear-mongering phising emails.  
 **Tools**: Wireshark
 
 
