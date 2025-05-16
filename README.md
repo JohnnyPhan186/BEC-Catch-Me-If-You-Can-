@@ -1,4 +1,10 @@
 # BEC-Catch-Me-If-You-Can-
 
-This project uses Wireshark to analyze network traffic and identify potential security threats. The goal is to demonstrate the use of network protocol analysis in cybersecurity incident response and threat detection.
+Simulated a real-world Business Email Compromise (BEC) attack targeting a corporate network. As part of the Blue Team, I analyzed network traffic (PCAP files) using Wireshark to:
+
+- Identify malicious phishing emails masquerading as legitimate communications.
+
+- Trace the attacker’s infrastructure (IPs, domains, email headers).
+
+- Distinguish between fraudulent vs. legitimate emails to mitigate the threat.
 
