@@ -21,11 +21,12 @@ Simulated a real-world Business Email Compromise (BEC) attack targeting a corpor
    - Filtered SMTP packets: `smtp contains "FROM""`
    - This display filter searches for packets where SMTP protocol data such as email heards includes the string "FROM".
    - This filter revealed multiple emails with nearly identical headers and all email oringinating from the same source IP address!
-   - ![smtp](https://github.com/user-attachments/assets/cfe84c07-8561-4fe4-9ac2-3bb1b1b9f3a9)
+   - ![smtp contains](https://github.com/user-attachments/assets/e9782614-da48-4a4a-88cc-2bc36047dd05)
+
 2. **Identified Malicious Actor**:
    - Used `smtp.data.fragments` to view the content of the emails.
-   - ![smtp](https://github.com/user-attachments/assets/ae46ad37-a511-471f-ba85-d9a18150d131)
    - Identified attacker IP address: (`10.6.1.104`).
+   - ![smtp](https://github.com/user-attachments/assets/74360889-79fa-48d8-ad40-7aace5ddd1cd)
 3. **Exported IOCs**:
    - Extracted phishing email content via `File → Export Objects → IMF`.
 
