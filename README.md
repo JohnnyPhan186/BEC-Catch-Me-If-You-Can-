@@ -16,7 +16,7 @@ Simulated a real-world Business Email Compromise (BEC) attack targeting a corpor
 - Spoofed Emails: Used `From: <YourLife40@0859.com>"`,`From: <YourLife26@5088"`, `From: <YourLife11@7040"` with fear-mongering phising emails.  
 **Tools**: Wireshark
 
-  ## 📝 Methodology
+## 📝 Methodology
 1. **Analyzed pcap files**:
    - Filtered SMTP packets: `smtp contains "FROM""`
    - This display filter searches for packets where SMTP protocol data such as email heards includes the string "FROM".
