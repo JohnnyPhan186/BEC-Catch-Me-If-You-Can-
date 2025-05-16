@@ -12,6 +12,6 @@ Simulated a real-world Business Email Compromise (BEC) attack targeting a corpor
 **Scenario**: A threat actor impersonated executives via phishing emails.  
 **My Role**: Blue Team analyst tasked with identifying malicious emails in PCAPs.  
 **Key Findings**:  
-- Attacker IP: `203.0.113.22` (linked to known BEC campaigns).  
-- Spoofed Emails: Used `MAIL FROM: CEO@company.com` with malicious PDF attachments.  
-**Tools**: Wireshark, TShark, VirusTotal.  
+- Attacker IP: `10.6.1.104`.  
+- Spoofed Emails: Used `From: <YourLife97@3953.com>"`,`From: <YourLife26@5088"`, `From: <YourLife11@5088"` with fear-mongering phising emails.  
+**Tools**: Wireshark
