@@ -16,4 +16,17 @@ Simulated a real-world Business Email Compromise (BEC) attack targeting a corpor
 - Spoofed Emails: Used `From: <YourLife40@0859.com>"`,`From: <YourLife26@5088"`, `From: <YourLife11@7040"` with fear-mongering phising emails.  
 **Tools**: Wireshark
 
+  ## 📝 Methodology
+1. **Analyzed pcap files**:
+   - Filtered SMTP packets: `smtp contains "FROM""`
+   - This display filter searches for packets where SMTP protocol data such as email heards includes the string "FROM".
+   - This filter revealed multiple emails with nearly identical headers and all email oringinating from the same source IP address!
+   - ![smtp](https://github.com/user-attachments/assets/cfe84c07-8561-4fe4-9ac2-3bb1b1b9f3a9)
+2. **Identified Malicious Actor**:
+   - Used `smtp.data.fragments` to view the content of the emails.
+   - ![smtp](https://github.com/user-attachments/assets/ae46ad37-a511-471f-ba85-d9a18150d131)
+   - Identified attacker IP address: (`10.6.1.104`).
+3. **Exported IOCs**:
+   - Extracted phishing email content via `File → Export Objects → IMF`.
+
 
